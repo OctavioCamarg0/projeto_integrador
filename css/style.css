@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#cabecalho {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+}
+
+.barra-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 65px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#menu ul {
+    display: flex;
+    list-style: none;
+}
+
+#menu ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#form-pesquisa{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 30px;
+}
+
+#menu a {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+#form-pesquisa form {
+    display: flex;
+    align-items: center;
+    padding: 5px
+}
+
+#form-pesquisa form input {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 40px;
+    font-size: 1rem;
+    border: none;
+}
+
+#form-pesquisa form i {
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+#form-pesquisa button {
+    background-color: black;
+    font-size: 1.2rem;
+    height: 30px;
+    border: none;
+    width: 100px;
+    border-radius: 20px;
+    color: #ffffff;
+}
