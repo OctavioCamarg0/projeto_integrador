@@ -12,7 +12,7 @@
     height: 300px;
     color: #ffffff;
     text-align: center;
-    display: flex;
+    margin-bottom: 50px;
 }
 
 .barra-topo {
@@ -22,6 +22,8 @@
     padding-top: 60px;
     padding-bottom: 60px;
     height: 65px;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 .container {
@@ -29,18 +31,10 @@
     margin: 0 auto;
 }
 
-#menu ul {
+#form-pesquisa {
+    margin: 0 auto;
     display: flex;
-    list-style: none;
-}
-
-#menu ul li {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#form-pesquisa{
-    display: flex;
+    width: 500px;
     justify-content: center;
     background-color: white;
     color: white;
@@ -82,4 +76,22 @@
     width: 100px;
     border-radius: 20px;
     color: #ffffff;
+}
+
+.lista-card-personal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.bloco-personal {
+    flex-grow: 1;
+    width: calc((100% / 3) - 30px);
+}
+
+.bloco-personal img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
 }
