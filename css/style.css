@@ -252,6 +252,22 @@
     margin-top: 5px;
 }
 
+.inscreva-se{
+    color: black;
+}
+
+.inscreva-se:hover{
+    color: red;
+}
+
+.esqueci-minha-senha{
+    color: black;
+}
+
+.esqueci-minha-senha:hover{
+    color: red;
+}
+
 #cabecalho-secundario {
     background-color: #9C6EFE;
     background-repeat: no-repeat;
