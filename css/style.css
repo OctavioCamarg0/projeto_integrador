@@ -1,3 +1,5 @@
+@import url(perguntas-frequentes.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -167,9 +169,11 @@
     margin-top: 10px;
 }
 
-.redes-sociais a{
-    color: black;
+.redes-sociais a {
     font-size: 2.0em;
+    color: black;
+    
+
 }
 
 .coluna-rodape ul li{
@@ -182,3 +186,94 @@
     color: white;
 }
 
+/* Pagina de cadastro */
+
+.area-cadastro form { 
+    display: flex;
+    flex-direction: column;
+}
+
+.area-cadastro {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    margin: 123px auto;
+    background-color: #E2D7FA;
+    padding: 30px;
+}
+
+.area-cadastro input {
+    height: 40px;
+    border-radius: 10px;
+    width: 300px;
+    padding: 25px 10px 25px 10px;
+    border: none;
+    margin-top: 20px;
+    background-color: #F2F2F2;
+}
+
+#botao-login {
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 50px 20px 50px;
+    background-color: red;
+}
+
+.botoes-cadastro {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.area-cadastro .face {
+    border-radius: 10px;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    background-color: #545998;
+}
+
+.area-cadastro .gmail {
+    border-radius: 10px;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    background-color: #5D99FB;
+}
+
+.area-cadastro p {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.inscreva-se{
+    color: black;
+}
+
+.inscreva-se:hover{
+    color: red;
+}
+
+.esqueci-minha-senha{
+    color: black;
+}
+
+.esqueci-minha-senha:hover{
+    color: red;
+}
+
+#cabecalho-secundario {
+    background-color: #9C6EFE;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 50px;
+}
