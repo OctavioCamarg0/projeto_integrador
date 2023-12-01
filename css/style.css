@@ -186,14 +186,14 @@
     color: white;
 }
 
-/* Pagina de cadastro */
+/* Pagina de login */
 
-.area-cadastro form { 
+.area-login form { 
     display: flex;
     flex-direction: column;
 }
 
-.area-cadastro {
+.area-login {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -204,7 +204,7 @@
     padding: 30px;
 }
 
-.area-cadastro input {
+.area-login input {
     height: 40px;
     border-radius: 10px;
     width: 300px;
@@ -232,21 +232,21 @@
     justify-content: space-between;
 }
 
-.area-cadastro .face {
+.area-login .face {
     border-radius: 10px;
     color: white;
     padding: 15px 20px 15px 20px;
     background-color: #545998;
 }
 
-.area-cadastro .gmail {
+.area-login .gmail {
     border-radius: 10px;
     color: white;
     padding: 15px 30px 15px 30px;
     background-color: #5D99FB;
 }
 
-.area-cadastro p {
+.area-login p {
     font-weight: bold;
     font-size: 12px;
     margin-top: 5px;
@@ -276,4 +276,81 @@
     color: #ffffff;
     text-align: center;
     margin-bottom: 50px;
+}
+
+/* Pagina de Cadastro */
+
+.area-cadastro {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 123px auto;
+    background-color: #E2D7FA;
+    padding: 30px;
+}
+
+.titulo-cadastro {
+    border-radius: 10px;
+    padding: 7px 15px 7px 15px;
+    color: #000000 ;
+    margin: 20px auto;
+}
+
+.area-cadastro form { 
+    display: flex;
+    flex-direction: column;
+}
+
+.area-cadastro input {
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px 10px 15px 10px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: #F2F2F2;
+}
+
+.area-cadastro select {
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px 0px 15px 0px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: #F2F2F2;
+}
+
+#botao-cadastro {
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 50px 20px 50px;
+    background-color: red;
+}
+
+.botoes-cadastro {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.area-cadastro .face {
+    border-radius: 10px;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    background-color: #545998;
+}
+
+.area-cadastro .gmail {
+    border-radius: 10px;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    background-color: #5D99FB;
 }
