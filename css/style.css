@@ -8,6 +8,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+#logo {
+    width: 200px;
+    margin-left: 40px;
+}
+
 #cabecalho {
     background-image: url(../img/banner.png);
     background-repeat: no-repeat;
