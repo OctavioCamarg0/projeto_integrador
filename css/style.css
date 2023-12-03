@@ -529,37 +529,35 @@
 
 /* Pagina sobre nós */
 
+.titulo-sobre-nos {
+    text-align: center;
+}
+.linha-de-separacao {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+}
+
 .img-direita-nossos-servicos img {
     border: 1px solid black;
     border-radius: 20px;
-    margin-right: 50px;
+    margin-right: 25px;
     margin-top: 55px;
     width: 300px
 }
 
-.img-direita-nossos-servicos {
-    margin-top: 90px;
-    margin-bottom: 90px;
-}
 
 .img-esquerda-nossos-servicos img {
     border: 1px solid black;
     border-radius: 20px;
-    margin-left: 50px;
+    margin-left: 25px;
     margin-top: 55px;
     width: 300px
 }
 
-.img-esquerda-nossos-servicos {
-    margin-top: 90px;
-    margin-bottom: 90px;
-}
 
 .sobre-nos-esquerda {
-    align-items: center;
     width: 600px;
-    margin-top: 90px;
-    margin-bottom: 90px;
 }
 
 .sobre-nos-esquerda h2 {
@@ -568,18 +566,17 @@
 }
 
 .sobre-nos-esquerda p {
+    margin-left: 25px;
     margin-bottom: 7px;
 }
 
-.sobre-nos-esquerda ul li {
+.sobre-nos-direita ul li {
+    margin-right: 25px;
     margin-bottom: 10px;
 }
 
 .sobre-nos-direita {
-    align-items: center;
     width: 600px;
-    margin-top: 90px;
-    margin-bottom: 90px;
 }
 
 .sobre-nos-direita h2 {
@@ -588,11 +585,13 @@
 }
 
 .sobre-nos-direita p {
+    margin-right: 25px;
     margin-bottom: 7px;
 }
 
 .card-sobre-nos {
+    margin-bottom: 100px;
     justify-content: space-between;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
