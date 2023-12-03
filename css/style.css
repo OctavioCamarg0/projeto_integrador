@@ -8,7 +8,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-#logo {
+#logo-img {
     width: 200px;
     margin-left: 40px;
 }
@@ -525,4 +525,74 @@
     padding: 15px 30px 15px 30px;
     background-color: #5D99FB;
 
+}
+
+/* Pagina sobre nós */
+
+.img-direita-nossos-servicos img {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-top: 55px;
+    width: 300px
+}
+
+.img-direita-nossos-servicos {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.img-esquerda-nossos-servicos img {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 55px;
+    width: 300px
+}
+
+.img-esquerda-nossos-servicos {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.sobre-nos-esquerda {
+    align-items: center;
+    width: 600px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.sobre-nos-esquerda h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sobre-nos-esquerda p {
+    margin-bottom: 7px;
+}
+
+.sobre-nos-esquerda ul li {
+    margin-bottom: 10px;
+}
+
+.sobre-nos-direita {
+    align-items: center;
+    width: 600px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.sobre-nos-direita h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sobre-nos-direita p {
+    margin-bottom: 7px;
+}
+
+.card-sobre-nos {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
 }
