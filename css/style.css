@@ -529,7 +529,7 @@
 
 /* Pagina sobre nós */
 
-.titulo-sobre-nos {
+.titulo-menu-rodape {
     text-align: center;
 }
 .linha-de-separacao {
@@ -538,7 +538,7 @@
     border: 1px solid black;
 }
 
-.img-direita-nossos-servicos img {
+.img-direita-menu-rodape img {
     border: 1px solid black;
     border-radius: 20px;
     margin-right: 25px;
@@ -547,7 +547,7 @@
 }
 
 
-.img-esquerda-nossos-servicos img {
+.img-esquerda-menu-rodape img {
     border: 1px solid black;
     border-radius: 20px;
     margin-left: 25px;
@@ -556,40 +556,40 @@
 }
 
 
-.sobre-nos-esquerda {
+.menu-rodape-esquerda {
     width: 600px;
 }
 
-.sobre-nos-esquerda h2 {
+.menu-rodape-esquerda h2 {
     text-align: center;
     margin-bottom: 30px;
 }
 
-.sobre-nos-esquerda p {
+.menu-rodape-esquerda p {
     margin-left: 25px;
     margin-bottom: 7px;
 }
 
-.sobre-nos-direita ul li {
+.menu-rodape-direita ul li {
     margin-right: 25px;
     margin-bottom: 10px;
 }
 
-.sobre-nos-direita {
+.menu-rodape-direita {
     width: 600px;
 }
 
-.sobre-nos-direita h2 {
+.menu0rodape-direita h2 {
     text-align: center;
     margin-bottom: 30px;
 }
 
-.sobre-nos-direita p {
+.menu-rodape-direita p {
     margin-right: 25px;
     margin-bottom: 7px;
 }
 
-.card-sobre-nos {
+.card-menu-rodape {
     margin-bottom: 100px;
     justify-content: space-between;
     display: flex;
