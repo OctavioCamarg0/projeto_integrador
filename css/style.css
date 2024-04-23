@@ -1,5 +1,10 @@
 @import url(perguntas-frequentes.css);
 
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -571,7 +576,9 @@
 }
 
 .menu-rodape-direita ul li {
+    list-style: none;
     margin-right: 25px;
+    margin-left: 10px;
     margin-bottom: 10px;
 }
 
@@ -579,7 +586,7 @@
     width: 600px;
 }
 
-.menu0rodape-direita h2 {
+.menu-rodape-direita h2 {
     text-align: center;
     margin-bottom: 30px;
 }
@@ -589,9 +596,83 @@
     margin-bottom: 7px;
 }
 
-.card-menu-rodape {
+.card-menu-rodape, .card-menu-rodape-direita {
     margin-bottom: 100px;
     justify-content: space-between;
+    align-items: center;
     display: flex;
     flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 768px) {  
+    .card-menu-rodape {
+        margin-bottom: 100px;
+        justify-content: space-between;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .menu-rodape-esquerda p {
+        margin-left: 0px;
+        margin-bottom: 7px;
+    }
+
+    .menu-rodape-direita p {
+        margin-right: 0px;
+        margin-bottom: 7px;
+    }
+    
+    .menu-rodape-direita ul li {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    
+
+    .card-menu-rodape-direita{
+        margin-bottom: 100px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    
+    h2 {
+        margin-bottom: 0px;
+    }
+
+    .menu-rodape-direita {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .menu-rodape-esquerda {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .img-direita-menu-rodape{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .img-esquerda-menu-rodape{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .span {
+        display: flex;
+        justify-content: center;
+    }
+
+    .span2 {
+        width: 80%;
+    }
 }
