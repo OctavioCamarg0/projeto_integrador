@@ -398,6 +398,7 @@ h2 {
 
 .ultima-li {
     margin-top: 5px;
+    
 }
 
 .oque-e-verificado {
@@ -452,6 +453,81 @@ h2 {
     border: 1px solid #9C6EFE;
     border-radius: 25px;
     max-width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    /* Perfil Personal */
+   
+    .bloco-pefil-personal {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    
+    .informacoes-perfil-personal {
+        max-width: 100%;
+    }
+    
+    .contatar {
+        margin: 0 auto;
+    }
+    
+
+    .locais-aulas ul li {
+        display: block;
+        margin-bottom: 10px;
+        padding: 30px;
+        max-width: none;
+    }
+    
+
+    .oque-e-verificado {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .tags {
+        text-align: center;
+        margin-top: 20px; /* Adiciona espaçamento */
+        margin-bottom: 30px;
+    }
+    
+  
+    .tipo-aula {
+        margin-bottom: 30px; /* Espaçamento considerável */
+    }
+    
+    .contatar {
+        margin-top: 30px; /* Espaçamento considerável */
+    }
+
+    .remove {
+        display: none;
+    }
+
+    /* Página Sobre Nós */
+    .titulo-menu-rodape {
+        text-align: center; /* Centraliza o título */
+    }
+
+    .img-direita-menu-rodape,
+    .img-esquerda-menu-rodape {
+        margin: 20px auto; /* Centraliza horizontalmente e adiciona margem superior para as imagens */
+        display: block; /* Garante que a imagem ocupe toda a largura disponível */
+    }
+
+    .img-direita-menu-rodape img,
+    .img-esquerda-menu-rodape img {
+        width: 100%; /* Define a largura total */
+        display: block; /* Garante que a imagem ocupe toda a largura disponível */
+    }
+
+    .menu-rodape-esquerda p,
+    .menu-rodape-direita p {
+        margin: 0 auto 10px; /* Centraliza horizontalmente e adiciona margem inferior */
+        text-align: center; /* Centraliza o texto */
+    }
 }
 
 /* Pagina de Cadastro */
@@ -592,9 +668,12 @@ h2 {
 }
 
 .menu-rodape-direita p {
+    margin-top: 20px;
     margin-right: 25px;
     margin-bottom: 7px;
 }
+
+
 
 .card-menu-rodape, .card-menu-rodape-direita {
     margin-bottom: 100px;
