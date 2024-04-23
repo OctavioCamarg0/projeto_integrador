@@ -1,5 +1,10 @@
 @import url(perguntas-frequentes.css);
 
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -579,7 +584,7 @@
     width: 600px;
 }
 
-.menu0rodape-direita h2 {
+.menu-rodape-direita h2 {
     text-align: center;
     margin-bottom: 30px;
 }
@@ -594,4 +599,34 @@
     justify-content: space-between;
     display: flex;
     flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 768px) {  
+    .card-menu-rodape {
+        margin-bottom: 100px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        margin-bottom: 0px;
+    }
+
+    .menu-rodape-direita {
+        width: 400px;
+    }
+
+    .menu-rodape-esquerda {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .img-direita-menu-rodape{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
 }
