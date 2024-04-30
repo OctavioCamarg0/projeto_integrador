@@ -28,11 +28,6 @@ h2 {
     margin-bottom: 50px;
 }
 
-#botao-menu-mobile{
-    display: none;
-    /* Desaparecer Elemento da tela */
-}
-
 .barra-topo {
     display: flex;
     justify-content: space-between;
@@ -200,65 +195,6 @@ h2 {
 
 .coluna-rodape h3 {
     color: white;
-}
-
-@media only screen and (max-width: 600px) {
-    .bloco-personal {
-        margin-left: 30px;
-        margin-right: 30px;
-        flex-grow: 1;
-        width: calc((100% / 1) - 30px);
-    }
-
-    #form-pesquisa {
-        width: 400px;
-    }
-
-    #botao-menu-mobile {
-        z-index: 999999;
-        display: block;
-        /* Mostrar elemento na tela */
-        padding: 10px;
-        cursor: pointer;
-        font-size: 18px;
-    }
-    
-    #menu {
-        position: fixed;
-        top: 0;
-        background-color: white;
-        width: 250px;
-        left: -250px; /* Ajuste para evitar o overflow horizontal */
-        height: 100vh;
-        z-index: 9;
-        box-shadow: 2px 5px 10px #2f2f2f;
-        transition: left 0.5s;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    #menu.menu-ativo {
-        left: 0;
-    }
-
-    #cabecalho {
-        text-align: left;
-        background-color: white;
-        width: 100%;
-    }
-
-    .logo {
-        position: absolute;
-        right: 20px; /* Ajuste conforme necessário */
-        transform: translateY(-50%);
-    }
-
-    #menu a {
-        margin-top: 10px;
-        padding: 0%;
-
-        color: black;
-    }
 }
 
 /* Pagina de login */
@@ -747,3 +683,75 @@ h2 {
     flex-direction: row-reverse;
 }
 
+@media only screen and (max-width: 768px) {  
+    .card-menu-rodape {
+        margin-bottom: 100px;
+        justify-content: space-between;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .menu-rodape-esquerda p {
+        margin-left: 0px;
+        margin-bottom: 7px;
+    }
+
+    .menu-rodape-direita p {
+        margin-right: 0px;
+        margin-bottom: 7px;
+    }
+    
+    .menu-rodape-direita ul li {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    
+
+    .card-menu-rodape-direita{
+        margin-bottom: 100px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    
+    h2 {
+        margin-bottom: 0px;
+    }
+
+    .menu-rodape-direita {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .menu-rodape-esquerda {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .img-direita-menu-rodape{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .img-esquerda-menu-rodape{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .span {
+        display: flex;
+        justify-content: center;
+    }
+
+    .span2 {
+        width: 80%;
+    }
+}
